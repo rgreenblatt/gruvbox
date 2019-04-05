@@ -638,7 +638,7 @@ hi! link Typedef GruvboxYellow
 
 if version >= 700
   " Popup menu: normal item
-  call s:HL('Pmenu', s:fg1, s:bg2)
+  call s:HL('Pmenu', s:fg1, s:bg0)
   " Popup menu: selected item
   call s:HL('PmenuSel', s:bg2, s:blue, s:bold)
   " Popup menu: scrollbar
